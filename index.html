@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parentdiv">
+      <h1 class="title">Contact Form</h1>
+      <form class="form">
+        <div class="inputfield">
+          <label>Name:</label>
+          <input type="Name:" class="input" placeholder="Enter your Name" />
+        </div>
+        <div class="inputfield">
+          <label>Username:</label>
+          <input type="text" class="input" placeholder="Enter your username" />
+        </div>
+        <div class="inputfield">
+          <label>Password:</label>
+          <input
+            type="password"
+            autocomplete="new-password"
+            class="input"
+            placeholder="Enter your password" />
+        </div>
+        <div class="inputfield">
+          <label>Retype Password:</label>
+          <input
+            type="password"
+            autocomplete="new-password"
+            class="input"
+            placeholder="Enter your password" />
+        </div>
+        <div class="inputfield option--field">
+          <label>Gender:</label>
+          <div class="option">
+            <div class="field--option">
+              <input type="radio" name="gender" /><label>Male</label>
+            </div>
+            <div class="field--option">
+              <input type="radio" name="gender" /><label>Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="inputfield option--field">
+          <label>Techie Skills:</label>
+          <div class="option">
+            <div class="field--option">
+              <input type="checkbox" name="language" /><label>HTML</label>
+            </div>
+            <div class="field--option">
+              <input type="checkbox" name="language" /><label>CSS</label>
+            </div>
+            <div class="field--option">
+              <input type="checkbox" name="language" /><label>Javascript</label>
+            </div>
+          </div>
+        </div>
+        <div class="inputfield">
+          <label>Enter your Phone Number:</label>
+          <input
+            type="text"
+            placeholder="Enter your phone number"
+            class="input" />
+        </div>
+        <div class="inputfield">
+          <label>Email:</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="Enter your email address" />
+        </div>
+        <div class="inputfield">
+          <label>College:</label>
+          <select name="" id="" class="input">
+            <option value="">Select a College</option>
+            <option value="George Brown College">George Brown College</option>
+            <option value="Seneca College">Seneca College</option>
+            <option value="Connestoga College">Connestoga College</option>
+          </select>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
